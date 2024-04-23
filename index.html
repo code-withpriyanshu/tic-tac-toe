@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="main">
+            
+            <h1>Tic Tac Toe</h1>
+            
+            <!--  X O -->
+            <div class="turn">
+                <button class="X"  onclick="bgcolourred()">X</button>
+                <button class="O" onclick="bgcolourblue()">O</button>
+            </div>
+            
+            
+            <!-- game -->
+            <div class="game">
+                <table>
+                    <tr>
+                        <th><button class="matrix pressedO">O</button></th>
+                        <th><button class="matrix"></button></th>
+                        <th><button class="matrix"></button></th>
+                    </tr>
+                    <tr>
+                        <th><button class="matrix"></button></th>
+                        <th><button class="matrix"></button></th>
+                        <th><button class="matrix"></button></th>
+                    </tr>
+                    <tr>
+                        <th><button class="matrix"></button></th>
+                        <th><button class="matrix"></button></th>
+                        <th><button class="matrix"></button></th>
+                    </tr>
+                    
+                </table>
+                
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
